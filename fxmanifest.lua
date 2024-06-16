@@ -12,11 +12,12 @@ client_scripts {
 }
 
 server_scripts {
+    '@oxmysql/lib/MySQL.lua',
     'server/*.lua',
 }
 
 shared_scripts {
-    'cofnig.lua',
+    '@es_extended/imports.lua',
     '@ox_lib/init.lua',
-    '@oxmysql/lib/MySQL.lua'
+    'config.lua'
 }
